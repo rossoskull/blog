@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Jay Mistry
+title: rossoskull.me
 email: mistry.jay15@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Hey everyone! I am Jay Mistry, a sophomore at IIIT Vadodara. I got into coding a bit early in
@@ -17,6 +17,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://rossoskull.me" # the base hostname & protocol for your site
 twitter_username: rossoskull
 github_username:  rossoskull
+insta_username: rossoskull
 
 # Build settings
 markdown: kramdown
