@@ -21,5 +21,4 @@ insta_username: rossoskull
 
 # Build settings
 markdown: kramdown
-
 theme: jekyll-theme-midnight

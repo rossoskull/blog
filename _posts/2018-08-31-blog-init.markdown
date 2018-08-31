@@ -5,22 +5,15 @@ date:   2018-08-31 11:35:00 +0530
 categories: learn coding
 author: "Jay Mistry"
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+## console.log("Hello World");
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+### First Ever Blog Post!
+Hey everyone! I am Jay Mistry, a Sophomore at IIIT Vadodara. This is my first ever blog post! I am very excited regarding this blog `rossoskull.me`, because now I have a tool, that's under my control, using which I will share some ( or many ) of the cool stuff that happens in my life. Hopefully, these blog posts will be helpful to some of you in one way or the other.
 
-Jekyll also offers powerful support for code snippets:
+To know more about me, you can follow me on various social medias.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+### About This Blog
+This blog is created using [Jekyll][jekyll-docs], which is a tool that helps you create simple, blog-aware static sites! Sounds cool, doesn't it? Guess what, it actually is. This site is hosted using [Github Pages][gh-pages], and that too - for free! GitHub Pages supports Jekyll. I'll be sharing my experiences and some stuff about coding using this blog.
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+[jekyll-docs]: https://jekyllrb.com/
+[gh-pages]: https://pages.github.com/
