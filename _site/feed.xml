@@ -7,11 +7,11 @@
  out me, and others. I believe in building a solution, rather than finding it someplace else. You 
  can know more about me on one of my social handles. Thanks for visiting!
 </description>
-    <link>http://rossoskull.me/</link>
-    <atom:link href="http://rossoskull.me/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 01 Sep 2018 00:44:12 +0530</pubDate>
-    <lastBuildDate>Sat, 01 Sep 2018 00:44:12 +0530</lastBuildDate>
-    <generator>Jekyll v3.1.6</generator>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 01 Sep 2018 22:33:30 +0530</pubDate>
+    <lastBuildDate>Sat, 01 Sep 2018 22:33:30 +0530</lastBuildDate>
+    <generator>Jekyll v3.8.3</generator>
     
       <item>
         <title>blog.init();</title>
@@ -27,8 +27,8 @@
 
 </description>
         <pubDate>Fri, 31 Aug 2018 11:35:00 +0530</pubDate>
-        <link>http://rossoskull.me/learn/coding/2018/08/31/blog-init.html</link>
-        <guid isPermaLink="true">http://rossoskull.me/learn/coding/2018/08/31/blog-init.html</guid>
+        <link>http://localhost:4000/learn/coding/2018/08/31/blog-init.html</link>
+        <guid isPermaLink="true">http://localhost:4000/learn/coding/2018/08/31/blog-init.html</guid>
         
         
         <category>learn</category>
