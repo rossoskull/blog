@@ -60,6 +60,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll-theme-midnight
+  rouge
 
 BUNDLED WITH
    1.16.4

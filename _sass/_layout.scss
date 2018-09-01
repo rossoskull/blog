@@ -1,10 +1,16 @@
 /**
  * Site header
  */
+
+ body {
+     font-family: 'Roboto', sans-serif;
+ }
 .site-header {
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
+    background-color: rgb(46, 46, 46);
+    color: rgb(199, 199, 199); 
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -20,7 +26,7 @@
 
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: rgb(199, 199, 199);
     }
 }
 
@@ -33,12 +39,16 @@
     }
 
     .page-link {
-        color: $text-color;
+        color: rgb(199, 199, 199);
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {
             margin-right: 20px;
+        }
+
+        &:hover {
+            color: rgb(230, 230, 230);
         }
     }
 
@@ -46,8 +56,8 @@
         position: absolute;
         top: 9px;
         right: $spacing-unit / 2;
-        background-color: $background-color;
-        border: 1px solid $grey-color-light;
+        background-color: rgb(34,34,34);
+        border: 1px solid $grey-color-dark;
         border-radius: 5px;
         text-align: right;
 
@@ -59,13 +69,14 @@
             line-height: 0;
             padding-top: 10px;
             text-align: center;
+            background-color: rgb(34, 34, 34);
 
             > svg {
                 width: 18px;
                 height: 15px;
 
                 path {
-                    fill: $grey-color-dark;
+                    fill: $grey-color-light;
                 }
             }
         }
@@ -84,6 +95,10 @@
             display: block;
             padding: 5px 10px;
 
+            &:hover {
+                color: rgb(230, 230, 230);
+            }
+
             &:not(:last-child) {
                 margin-right: 0;
             }
@@ -100,6 +115,8 @@
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+    background-color: rgb(46, 46, 46);
+    color: rgb(199, 199, 199); 
 }
 
 .footer-heading {

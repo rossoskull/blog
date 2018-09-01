@@ -15,8 +15,8 @@ dl, dd, ol, ul, figure {
  */
 body {
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
-    color: $text-color;
-    background-color: $background-color;
+    color: rgb(230,230,230);
+    background-color: rgb(20,20,20);
     -webkit-text-size-adjust: 100%;
     -webkit-font-feature-settings: "kern" 1;
     -moz-font-feature-settings: "kern" 1;
@@ -91,16 +91,13 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $brand-color;
+    color: rgb(182, 182, 182);
     text-decoration: none;
-
-    &:visited {
-        color: darken($brand-color, 15%);
-    }
-
+    transition: 150ms;
+    text-shadow: 3px 3px 10px black;
+    
     &:hover {
-        color: $text-color;
-        text-decoration: underline;
+        color: rgb(230, 230, 230); 
     }
 }
 
@@ -172,7 +169,19 @@ pre {
     }
 }
 
+/**
+ * Page Content links
+ */
 
+.page-content a {
+    color: rgb(42, 209, 0);
+    text-decoration: none;
+    transition: 125ms;
+    text-shadow: none;
+    &:hover {
+        color: rgb(20, 102, 0); 
+    }
+}
 
 /**
  * Clearfix
