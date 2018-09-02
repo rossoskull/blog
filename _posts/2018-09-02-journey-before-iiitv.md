@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "My Journey Before IIITV"
+title:  "My Journey Before Joining IIITV"
 date:   2018-09-02 19:48:00 +0530
 categories: learn coding
 author: "Jay Mistry"
