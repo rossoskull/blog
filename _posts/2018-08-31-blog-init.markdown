@@ -10,7 +10,7 @@ author: "Jay Mistry"
 ### First Ever Blog Post!
 Hey everyone! I am Jay Mistry, a Sophomore at IIIT Vadodara. This is my first ever blog post! I am very excited regarding this blog `rossoskull.me`, because now I have a tool, that's under my control, using which I will share some ( or many ) of the cool stuff that happens in my life. Hopefully, these blog posts will be helpful to some of you in one way or the other.
 
-To know more about me, you can follow me on various social medias.
+To know more about me, you can go [here](/about/). Also to get more updates about this blog, or from my life, you can follow me on various social medias.
 
 ### About This Blog
 This blog is created using [Jekyll][jekyll-docs], which is a tool that helps you create simple, blog-aware static sites! Sounds cool, doesn't it? Guess what, it actually is. This site is hosted using [Github Pages][gh-pages], and that too - for free! GitHub Pages supports Jekyll. I'll be sharing my experiences and some stuff about coding using this blog.
