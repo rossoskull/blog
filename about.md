@@ -4,7 +4,7 @@ title: About Me
 permalink: /about/
 ---
 
-## Hey Everone, I am Jay!
+## Hey Everyone, I am Jay!
 
 Welcome to my blog! Thanks for giving your precious time to this blog of mine. I hope it turns out to be useful to you.
 
