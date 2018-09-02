@@ -8,7 +8,7 @@ author: "Jay Mistry"
 
 Hey everyone! Today I'll discuss my journey - how it all started.
 
-I began my coding journey a bit early in my life, and since then, it's been wonderful. I try to keep learning new things everyday. I also believe in application. As it is known, only knowledge, and no application leads that knowledge to waste. So, <i>Keep Learning</i>!
+I began my coding journey a bit early in my life, and since then, it's been wonderful. I try to keep learning new things everyday. I also believe in application. As it is known, only knowledge, and no application leads that knowledge to waste. So, Keep Learning!
 
 I started my journey in coding with [QBASIC](https://en.wikipedia.org/wiki/QBasic){:target="_blank"}. As it's name suggests, it's for beginners. So I didn't have a hard time with it. And with spending more time with it, I realised that I started to love Coding. The thought that I could possibly create <b>anything</b> fascinated me. I felt "God-like", we can say. And so it began - my journey.
 
