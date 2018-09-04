@@ -44,7 +44,7 @@ Similarly, in other operations, you can write better code with better Logic. So 
 ### How to improve Logic?
 Here comes in Competitive Programming ( or Sport Programming ). Competitive programming has a large community, and is still growing at a huge rate. There is an ocean of questions, problems and competitions available on the internet now. There are various sites for the same, like [Hackerrank](https://www.hackerrank.com){:target="_blank"}, [Codechef](https://www.codechef.com){:target="_blank"}, etc. You can solve some problems without using advanced concepts, but some problems do require them. You also need to practise Data Structures and Algorithms. Competitive Programming 'forces' you to think of the most optimal solution, and before long, your brain will be trained to think of an optimal solution wherever possible. 
 
-> With great Logic, comes great Code.
+> <i>"With great Logic, comes great Code."</i>
 
 A good way to slowly improve your thinking, is to solve atleast 1-2 problems everyday. After 2-3 months, you will have a greater understanding of the problems, and the solving strategies.
 
