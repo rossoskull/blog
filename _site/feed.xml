@@ -9,9 +9,24 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 03 Sep 2018 01:31:03 +0530</pubDate>
-    <lastBuildDate>Mon, 03 Sep 2018 01:31:03 +0530</lastBuildDate>
+    <pubDate>Tue, 04 Sep 2018 23:49:54 +0530</pubDate>
+    <lastBuildDate>Tue, 04 Sep 2018 23:49:54 +0530</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
+    
+      <item>
+        <title>Beginning Your Journey &quot;The Right Way&quot;</title>
+        <description>
+</description>
+        <pubDate>Tue, 04 Sep 2018 14:37:00 +0530</pubDate>
+        <link>http://localhost:4000/learn/coding/2018/09/04/beginning-your-journey-the-right-way.html</link>
+        <guid isPermaLink="true">http://localhost:4000/learn/coding/2018/09/04/beginning-your-journey-the-right-way.html</guid>
+        
+        
+        <category>learn</category>
+        
+        <category>coding</category>
+        
+      </item>
     
       <item>
         <title>My Journey After Joining IIITV</title>

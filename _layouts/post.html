@@ -10,6 +10,26 @@ layout: default
 
   <div class="post-content" itemprop="articleBody">
     {{ content }}
+
+    <!-- Display Previous Post Link -->
+  <div class="link_prev_next_cont">
+    <div class="link_prev">
+      {% if page.previous.url %}
+      <a href="{{ page.previous.url }}" title="{{ page.previous.title }}">&laquo; Previous Post</a>
+      {% endif %}
+    </div>
+
+    <!-- Display Next Post Link -->
+    <div class="link_next">
+      {% if page.next.url %}
+      <a href="{{ page.next.url }}" title="{{ page.next.title }}"> Up Next &raquo;</a>
+      {% else %}
+      <i>Next Post Coming Soon!</i>
+      {% endif %}
+    </div>
   </div>
+  </div>
+
+  
 
 </article>

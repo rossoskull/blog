@@ -258,3 +258,23 @@
         }
     }
 }
+
+
+// Previous And Next Post Link Styles
+
+.link_prev_next_cont {
+    position: absolute;
+    width: 100%;
+}
+
+.link_prev {
+    position: relative;
+    float: left;
+    width: 50%;
+}
+
+.link_next {
+    position: relative;
+    float: right;
+    width: 50%;
+}
