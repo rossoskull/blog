@@ -9,8 +9,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 05 Sep 2018 01:16:04 +0530</pubDate>
-    <lastBuildDate>Wed, 05 Sep 2018 01:16:04 +0530</lastBuildDate>
+    <pubDate>Fri, 07 Sep 2018 11:14:39 +0530</pubDate>
+    <lastBuildDate>Fri, 07 Sep 2018 11:14:39 +0530</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
     
       <item>
@@ -54,7 +54,7 @@
 &lt;p&gt;Here comes in Competitive Programming ( or Sport Programming ). Competitive programming has a large community, and is still growing at a huge rate. There is an ocean of questions, problems and competitions available on the internet now. There are various sites for the same, like &lt;a href=&quot;https://www.hackerrank.com&quot; target=&quot;_blank&quot;&gt;Hackerrank&lt;/a&gt;, &lt;a href=&quot;https://www.codechef.com&quot; target=&quot;_blank&quot;&gt;Codechef&lt;/a&gt;, etc. You can solve some problems without using advanced concepts, but some problems do require them. You also need to practise Data Structures and Algorithms. Competitive Programming ‘forces’ you to think of the most optimal solution, and before long, your brain will be trained to think of an optimal solution wherever possible.&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;With great Logic, comes great Code.&lt;/p&gt;
+  &lt;p&gt;&lt;i&gt;“With great Logic, comes great Code.”&lt;/i&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;A good way to slowly improve your thinking, is to solve atleast 1-2 problems everyday. After 2-3 months, you will have a greater understanding of the problems, and the solving strategies.&lt;/p&gt;

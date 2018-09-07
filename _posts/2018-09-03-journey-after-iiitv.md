@@ -4,6 +4,7 @@ title:  "My Journey After Joining IIITV"
 date:   2018-09-03 00:43:00 +0530
 categories: learn coding
 author: "Jay Mistry"
+comments: true
 ---
 
 The environment around me ( before joining IIITV ) was that I was the one who knew most of the stuff, and eventually it made me a bit lazy. It happens that when you feel that you know 'enough', you stop pushing yourself, and learning new things. It happened with me too.

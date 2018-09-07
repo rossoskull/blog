@@ -4,6 +4,7 @@ title:  "blog.init();"
 date:   2018-08-31 11:35:00 +0530
 categories: learn coding
 author: "Jay Mistry"
+comments: true
 ---
 ## console.log("Hello World");
 

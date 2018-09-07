@@ -4,6 +4,7 @@ title:  "Beginning Your Journey \"The Right Way\""
 date:   2018-09-04 14:37:00 +0530
 categories: learn coding
 author: "Jay Mistry"
+comments: true
 ---
 
 Hey everyone! I hope everything's going great! Today we're going to discuss the "Right Way" to begin your journey in the domain of Computer Programming.

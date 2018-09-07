@@ -4,6 +4,7 @@ title:  "My Journey Before Joining IIITV"
 date:   2018-09-02 19:48:00 +0530
 categories: learn coding
 author: "Jay Mistry"
+comments: true
 ---
 
 Hey everyone! Today I'll discuss my journey - how it all started.
