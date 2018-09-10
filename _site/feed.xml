@@ -9,8 +9,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 07 Sep 2018 11:14:39 +0530</pubDate>
-    <lastBuildDate>Fri, 07 Sep 2018 11:14:39 +0530</lastBuildDate>
+    <pubDate>Mon, 10 Sep 2018 14:32:16 +0530</pubDate>
+    <lastBuildDate>Mon, 10 Sep 2018 14:32:16 +0530</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
     
       <item>
@@ -26,7 +26,7 @@
 &lt;p&gt;The way, or workflow which I’ll be discussing here is the one I found out to be really effective. Undoubtedly, there are many other ways, some more effective, and some less. But everything is good if it helps you further yourself towards your goal.&lt;/p&gt;
 
 &lt;h3 id=&quot;choosing-your-first-language&quot;&gt;Choosing your first language&lt;/h3&gt;
-&lt;p&gt;Choosing your first language wisely is really important. Because you will do a lot of preliminary and basic stuff using your first language. A good tip for selecting your first programming language would be to select a compiled language like C, C++, Java, etc. Most of compiled languages, for e.g. C, are closer to the system. C doesn’t do a lot of stuff for us; for example, implementing dynamic arrays ( arrays with variable size ) in C is not so easy. But in implemented languages, like Python, dynamic arrays are a part of the language ( called ‘lists’ ).&lt;/p&gt;
+&lt;p&gt;Choosing your first language wisely is really important. Because you will do a lot of preliminary and basic stuff using your first language. A good tip for selecting your first programming language would be to select a compiled language like C, C++, Java, etc. Most of compiled languages, for e.g. C, are closer to the system. C doesn’t do a lot of stuff for us; for example, implementing dynamic arrays ( arrays with variable size ) in C is not so easy. But in interpreted languages, like Python, dynamic arrays are a part of the language ( called ‘lists’ ).&lt;/p&gt;
 
 &lt;p&gt;The language which I would recommend for first-timers would be C. It has a flatter learning curve than Java and is similar to C++, but helps you in learning many of the concepts ( not including Object Oriented Programming ). You can also use C for Competitive Programming, as it is comparatively faster than other languages. Also, as it is a language that is ‘closer to the computer system and hardware’, we are also able to understand the working of the system.&lt;/p&gt;
 
