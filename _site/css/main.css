@@ -274,6 +274,10 @@ body {
   width: -webkit-calc(45% - (30px / 2));
   width: calc(45% - (30px / 2)); }
 
+.Divider {
+  margin-bottom: 15px;
+  margin-top: 10px; }
+
 @media screen and (max-width: 800px) {
   .footer-col-1,
   .footer-col-2 {

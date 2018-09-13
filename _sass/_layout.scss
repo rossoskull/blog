@@ -163,6 +163,11 @@
     width:         calc(45% - (#{$spacing-unit} / 2));
 }
 
+.Divider {
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
 @include media-query($on-laptop) {
     .footer-col-1,
     .footer-col-2 {
