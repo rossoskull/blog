@@ -176,9 +176,13 @@ body {
   line-height: 56px;
   letter-spacing: -1px;
   margin-bottom: 0;
-  float: left; }
+  float: left;
+  height: 100%; }
   .site-title, .site-title:visited {
     color: #c7c7c7; }
+
+.site-title-image {
+  height: 40px; }
 
 .site-nav {
   float: right;

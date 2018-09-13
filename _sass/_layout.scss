@@ -23,11 +23,16 @@
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
+    height: 100%;
 
     &,
     &:visited {
         color: rgb(199, 199, 199);
     }
+}
+
+.site-title-image {
+    height: 40px;
 }
 
 .site-nav {
