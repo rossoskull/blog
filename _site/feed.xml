@@ -6,9 +6,46 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 01 Oct 2018 16:13:25 -0500</pubDate>
-    <lastBuildDate>Mon, 01 Oct 2018 16:13:25 -0500</lastBuildDate>
+    <pubDate>Mon, 01 Oct 2018 16:14:02 -0500</pubDate>
+    <lastBuildDate>Mon, 01 Oct 2018 16:14:02 -0500</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
+    
+      <item>
+        <title>&quot;What if I am not good at Coding? 😕&quot;</title>
+        <description>&lt;h3 id=&quot;the-constant-struggle---lack-of-self-esteem&quot;&gt;The constant struggle - lack of self-esteem&lt;/h3&gt;
+&lt;p&gt;Many times, I find people confusing skill with talent. Skill is something one acquires by perseverance, hard work and a lot of practise. It is then when someone becomes &lt;em&gt;Skilled&lt;/em&gt;. On the other hand, talent, is something one is born with. It is their natural aptitude. It is true that people with talent are better at doing things, as compared to other people, but it should also be known that their expertise due to talent can be surpassed with constant practise and hard work.&lt;/p&gt;
+
+&lt;p&gt;I am often asked by people, who are just beginning their journeys in Computer Programming, that how am I able to code well then them? Same goes for the huge number of people who are far better then me. How are they so good? The answer is simple - Practise. Computer programming is just like speaking multiple languages - you just translate your ideas into code. If you can speak more than one language, then surely, you can code.&lt;/p&gt;
+
+&lt;p&gt;Also, a reason for less self esteem may be an experience of a series of failures. The failures need not be large, even small ones are enough to break your confidence. But &lt;strong&gt;the one who stands through all of this, is the one who succeeds&lt;/strong&gt;. You can also check out my other blog post, which intends to help you to decide how to start with Computer Programming - &lt;a href=&quot;/learn/coding/2018/09/04/beginning-your-journey-the-right-way.html&quot; target=&quot;blank&quot;&gt;“Beginning your journey the right way”&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;If you checked it out, you may know, that there’s no hard and fast way of acheiving success overnight. No one can do that. Even God wasn’t able to create the World overnight. He took 7 days to do so. Compared to him, we are just Humans, so obviously we would need more time.&lt;/p&gt;
+
+&lt;p&gt;The last point I would like to make, is that one needs to trust in oneself, if he intends to be successful. Without self-trust, people who are successful right now, would’ve left their positions the moment they faced difficulties. In order to learn something well, you need patience. Patience to sit and try something, and fail innumerable times, until you succeed. You need to become the best at what you do. This is a more general topic, it’s not just limited to Computer Programming.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;i&gt;“Genius is one percent inspiration, and ninety-nine percent perspiration.”&lt;/i&gt;&lt;/p&gt;
+
+  &lt;p&gt;— &lt;cite&gt;Thomas Edison&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;For any questions, you can always contact me through mail, or any of my social handles 😄. Also leave a comment for any suggestion.&lt;/p&gt;
+
+&lt;p&gt;I’ll wrap this up with this. Thanks for your time!&lt;/p&gt;
+
+&lt;p&gt;Adios Folks!&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 01 Oct 2018 03:26:00 -0500</pubDate>
+        <link>http://localhost:4000/learn/coding/2018/10/01/what-if-i-am-not-good-at-it.html</link>
+        <guid isPermaLink="true">http://localhost:4000/learn/coding/2018/10/01/what-if-i-am-not-good-at-it.html</guid>
+        
+        
+        <category>learn</category>
+        
+        <category>coding</category>
+        
+      </item>
     
       <item>
         <title>What is RossoSkull?</title>
