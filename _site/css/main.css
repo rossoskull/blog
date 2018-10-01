@@ -126,12 +126,12 @@ pre {
  * Page Content links
  */
 .page-content a {
-  color: #6DAEDB;
+  color: #6EA4BF;
   text-decoration: none;
   transition: 125ms;
   text-shadow: none; }
   .page-content a:hover {
-    color: #328cca; }
+    color: #457f9c; }
 
 /**
  * Clearfix
