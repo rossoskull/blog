@@ -163,6 +163,12 @@
     width:         calc(45% - (#{$spacing-unit} / 2));
 }
 
+.footer-description {
+    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
+    width:         calc(45% - (#{$spacing-unit} / 2));
+    font-style: italic;
+}
+
 .Divider {
     margin-bottom: 15px;
     margin-top: 10px;

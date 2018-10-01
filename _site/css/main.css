@@ -75,7 +75,7 @@ a {
  * Blockquotes
  */
 blockquote {
-  color: #bdc3c7;
+  color: #949da4;
   border-left: 4px solid #e6e9ea;
   padding-left: 15px;
   font-size: 18px;
@@ -272,6 +272,11 @@ body {
 .footer-col-3 {
   width: -webkit-calc(45% - (30px / 2));
   width: calc(45% - (30px / 2)); }
+
+.footer-description {
+  width: -webkit-calc(45% - (30px / 2));
+  width: calc(45% - (30px / 2));
+  font-style: italic; }
 
 .Divider {
   margin-bottom: 15px;
