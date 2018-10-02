@@ -6,11 +6,11 @@
      font-family: 'Roboto', sans-serif;
  }
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
+    border-top: 5px solid $blue-color-dark;
+    border-bottom: 1px solid $blue-color-light;
     min-height: 56px;
-    background-color: rgb(46, 46, 46);
-    color: rgb(199, 199, 199); 
+    background-color: $blue-color-dark;
+    color: rgb(199, 199, 199);
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -61,7 +61,7 @@
         position: absolute;
         top: 9px;
         right: $spacing-unit / 2;
-        background-color: rgb(34,34,34);
+        background-color: $blue-color-dark;
         border: 1px solid $grey-color-dark;
         border-radius: 5px;
         text-align: right;
@@ -74,7 +74,7 @@
             line-height: 0;
             padding-top: 10px;
             text-align: center;
-            background-color: rgb(34, 34, 34);
+            background-color: $blue-color-dark;
 
             > svg {
                 width: 18px;
@@ -118,10 +118,10 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
+    border-top: 1px solid $blue-color-light;
     padding: $spacing-unit 0;
-    background-color: rgb(46, 46, 46);
-    color: rgb(199, 199, 199); 
+    background-color: $blue-color-dark;
+    color: rgb(199, 199, 199);
 }
 
 .footer-heading {
@@ -161,6 +161,12 @@
 .footer-col-3 {
     width: -webkit-calc(45% - (#{$spacing-unit} / 2));
     width:         calc(45% - (#{$spacing-unit} / 2));
+}
+
+.footer-description {
+    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
+    width:         calc(45% - (#{$spacing-unit} / 2));
+    font-style: italic;
 }
 
 .Divider {
@@ -214,7 +220,7 @@
 
 .post-meta {
     font-size: $small-font-size;
-    color: $grey-color;
+    color: $blue-color;
 }
 
 .post-link {

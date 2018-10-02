@@ -2,16 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>rossoskull.me</title>
-    <description>Hey everyone! I am Jay Mistry, a sophomore at IIIT Vadodara. I got into coding a bit early in
- my life, and am loving it since then! I love learning new stuff, and building things that help 
- out me, and others. I believe in building a solution, rather than finding it someplace else. You 
- can know more about me on one of my social handles. Thanks for visiting!
+    <description>Hey everyone! I am Jay Mistry, a sophomore at IIIT Vadodara. I got into coding a bit early in my life, and am loving it since then! I love learning new stuff, and building things that help out me, and others. I believe in building a solution, rather than finding it someplace else. You can know more about me on one of my social handles. Thanks for visiting!
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 02 Oct 2018 01:39:40 +0530</pubDate>
-    <lastBuildDate>Tue, 02 Oct 2018 01:39:40 +0530</lastBuildDate>
-    <generator>Jekyll v3.8.3</generator>
+    <pubDate>Mon, 01 Oct 2018 17:14:47 -0500</pubDate>
+    <lastBuildDate>Mon, 01 Oct 2018 17:14:47 -0500</lastBuildDate>
+    <generator>Jekyll v3.7.4</generator>
     
       <item>
         <title>&quot;What if I am not good at Coding? 😕&quot;</title>
@@ -20,7 +17,7 @@
 
 &lt;p&gt;I am often asked by people, who are just beginning their journeys in Computer Programming, that how am I able to code well then them? Same goes for the huge number of people who are far better then me. How are they so good? The answer is simple - Practise. Computer programming is just like speaking multiple languages - you just translate your ideas into code. If you can speak more than one language, then surely, you can code.&lt;/p&gt;
 
-&lt;p&gt;Also, a reason for less self esteem may be an experience of a series of failures. The failures need not be large, even small ones are enough to break your confidence. But &lt;strong&gt;the one who stands through all of this is the one who succeeds&lt;/strong&gt;. You can also check out my blog post, which intends to help you to decide how to start with Computer Programming - &lt;a href=&quot;/learn/coding/2018/09/04/beginning-your-journey-the-right-way.html&quot; target=&quot;blank&quot;&gt;“Beginning your journey the right way”&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Also, a reason for less self esteem may be an experience of a series of failures. The failures need not be large, even small ones are enough to break your confidence. But &lt;strong&gt;the one who stands through all of this, is the one who succeeds&lt;/strong&gt;. You can also check out my other blog post, which intends to help you to decide how to start with Computer Programming - &lt;a href=&quot;/learn/coding/2018/09/04/beginning-your-journey-the-right-way.html&quot; target=&quot;blank&quot;&gt;“Beginning your journey the right way”&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;If you checked it out, you may know, that there’s no hard and fast way of acheiving success overnight. No one can do that. Even God wasn’t able to create the World overnight. He took 7 days to do so. Compared to him, we are just Humans, so obviously we would need more time.&lt;/p&gt;
 
@@ -32,14 +29,14 @@
   &lt;p&gt;— &lt;cite&gt;Thomas Edison&lt;/cite&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;For any questions, you can always contact me through mail, or any of my social handles 😄&lt;/p&gt;
+&lt;p&gt;For any questions, you can always contact me through mail, or any of my social handles 😄. Also leave a comment for any suggestion.&lt;/p&gt;
 
 &lt;p&gt;I’ll wrap this up with this. Thanks for your time!&lt;/p&gt;
 
 &lt;p&gt;Adios Folks!&lt;/p&gt;
 
 </description>
-        <pubDate>Mon, 01 Oct 2018 13:56:00 +0530</pubDate>
+        <pubDate>Mon, 01 Oct 2018 03:26:00 -0500</pubDate>
         <link>http://localhost:4000/learn/coding/2018/10/01/what-if-i-am-not-good-at-it.html</link>
         <guid isPermaLink="true">http://localhost:4000/learn/coding/2018/10/01/what-if-i-am-not-good-at-it.html</guid>
         
@@ -69,7 +66,7 @@
 &lt;p&gt;Adios Folks!
 &lt;br /&gt;&lt;/p&gt;
 </description>
-        <pubDate>Thu, 13 Sep 2018 20:24:00 +0530</pubDate>
+        <pubDate>Thu, 13 Sep 2018 09:54:00 -0500</pubDate>
         <link>http://localhost:4000/learn/coding/2018/09/13/why-rossoskull.html</link>
         <guid isPermaLink="true">http://localhost:4000/learn/coding/2018/09/13/why-rossoskull.html</guid>
         
@@ -141,7 +138,7 @@
 
 &lt;p&gt;Adios Folks!&lt;/p&gt;
 </description>
-        <pubDate>Tue, 04 Sep 2018 14:37:00 +0530</pubDate>
+        <pubDate>Tue, 04 Sep 2018 04:07:00 -0500</pubDate>
         <link>http://localhost:4000/learn/coding/2018/09/04/beginning-your-journey-the-right-way.html</link>
         <guid isPermaLink="true">http://localhost:4000/learn/coding/2018/09/04/beginning-your-journey-the-right-way.html</guid>
         
@@ -174,9 +171,9 @@
 
 &lt;p&gt;Adios Folks.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 03 Sep 2018 00:43:00 +0530</pubDate>
-        <link>http://localhost:4000/learn/coding/2018/09/03/journey-after-iiitv.html</link>
-        <guid isPermaLink="true">http://localhost:4000/learn/coding/2018/09/03/journey-after-iiitv.html</guid>
+        <pubDate>Sun, 02 Sep 2018 14:13:00 -0500</pubDate>
+        <link>http://localhost:4000/learn/coding/2018/09/02/journey-after-iiitv.html</link>
+        <guid isPermaLink="true">http://localhost:4000/learn/coding/2018/09/02/journey-after-iiitv.html</guid>
         
         
         <category>learn</category>
@@ -207,7 +204,7 @@
 
 &lt;p&gt;Adios folks.&lt;/p&gt;
 </description>
-        <pubDate>Sun, 02 Sep 2018 19:48:00 +0530</pubDate>
+        <pubDate>Sun, 02 Sep 2018 09:18:00 -0500</pubDate>
         <link>http://localhost:4000/learn/coding/2018/09/02/journey-before-iiitv.html</link>
         <guid isPermaLink="true">http://localhost:4000/learn/coding/2018/09/02/journey-before-iiitv.html</guid>
         
@@ -231,7 +228,7 @@
 &lt;p&gt;This blog is created using &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;, which is a tool that helps you create simple, blog-aware static sites! Sounds cool, doesn’t it? Guess what, it actually is. This site is hosted using &lt;a href=&quot;https://pages.github.com/&quot;&gt;Github Pages&lt;/a&gt;, and that too - for free! GitHub Pages supports Jekyll. I’ll be sharing my experiences and some stuff about coding using this blog.&lt;/p&gt;
 
 </description>
-        <pubDate>Fri, 31 Aug 2018 11:35:00 +0530</pubDate>
+        <pubDate>Fri, 31 Aug 2018 01:05:00 -0500</pubDate>
         <link>http://localhost:4000/learn/coding/2018/08/31/blog-init.html</link>
         <guid isPermaLink="true">http://localhost:4000/learn/coding/2018/08/31/blog-init.html</guid>
         

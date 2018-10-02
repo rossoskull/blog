@@ -15,8 +15,8 @@ dl, dd, ol, ul, figure {
  */
 body {
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
-    color: rgb(196, 196, 196);
-    background-color: rgb(20,20,20);
+    color: $blue-color-dark;
+    background-color: $white-color;
     -webkit-text-size-adjust: 100%;
     -webkit-font-feature-settings: "kern" 1;
     -moz-font-feature-settings: "kern" 1;
@@ -94,10 +94,9 @@ a {
     color: rgb(182, 182, 182);
     text-decoration: none;
     transition: 150ms;
-    text-shadow: 3px 3px 10px black;
-    
+
     &:hover {
-        color: rgb(230, 230, 230); 
+        color: rgb(230, 230, 230);
     }
 }
 
@@ -107,7 +106,7 @@ a {
  * Blockquotes
  */
 blockquote {
-    color: $grey-color;
+    color: $grey-color-dark;
     border-left: 4px solid $grey-color-light;
     padding-left: $spacing-unit / 2;
     font-size: 18px;
@@ -174,12 +173,12 @@ pre {
  */
 
 .page-content a {
-    color: rgb(42, 209, 0);
+    color: $light-blue-color;
     text-decoration: none;
     transition: 125ms;
     text-shadow: none;
     &:hover {
-        color: rgb(20, 102, 0); 
+        color: $light-blue-color-dark;
     }
 }
 

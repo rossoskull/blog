@@ -18,9 +18,20 @@ $text-color:       #111;
 $background-color: #fdfdfd;
 $brand-color:      #2a7ae2;
 
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+$grey-color:       #bdc3c7;
+$grey-color-light: lighten($grey-color, 15%);
+$grey-color-dark:  darken($grey-color, 15%);
+
+$white-color:       #fff;
+
+$light-blue-color:   #6EA4BF;
+$light-blue-color-dark: darken($light-blue-color, 15%);
+
+$blue-color:       #2d5782;
+$blue-color-light: lighten($blue-color, 15%);
+$blue-color-dark:  darken($blue-color, 15%);
+
+$other-blue:       #95ADB6;
 
 // Width of the content area
 $content-width:    800px;
