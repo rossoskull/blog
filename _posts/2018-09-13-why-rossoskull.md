@@ -9,7 +9,7 @@ comments: true
 
 ### Origin Story Time :P
 
-<img src="/assets/images/img/rossoskull25ppi.png">
+<img src="/blog/assets/images/img/rossoskull25ppi.png">
 
 I coined the word "RossoSkull" when I was studying in 12<sup>th</sup> class. I was frequently playing computer games then, so I needed a "cool" name which I could use in those games. And _"Rossoskull"_ came to my mind. _Rossoskull_ is comprised of two seperate terms - _Rosso_ and _Skull_. As a whole, _RossoSkull_ means _RedSkull_.
 

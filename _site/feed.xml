@@ -4,10 +4,10 @@
     <title>rossoskull.me</title>
     <description>Hey everyone! I am Jay Mistry, a sophomore at IIIT Vadodara. I got into coding a bit early in my life, and am loving it since then! I love learning new stuff, and building things that help out me, and others. I believe in building a solution, rather than finding it someplace else. You can know more about me on one of my social handles. Thanks for visiting!
 </description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 03 Oct 2018 14:40:23 -0500</pubDate>
-    <lastBuildDate>Wed, 03 Oct 2018 14:40:23 -0500</lastBuildDate>
+    <link>http://localhost:4000/blog/</link>
+    <atom:link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 23 Jan 2019 18:43:50 +0530</pubDate>
+    <lastBuildDate>Wed, 23 Jan 2019 18:43:50 +0530</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
     
       <item>
@@ -36,9 +36,9 @@
 &lt;p&gt;Adios Folks!&lt;/p&gt;
 
 </description>
-        <pubDate>Mon, 01 Oct 2018 03:26:00 -0500</pubDate>
-        <link>http://localhost:4000/learn/coding/2018/10/01/what-if-i-am-not-good-at-it.html</link>
-        <guid isPermaLink="true">http://localhost:4000/learn/coding/2018/10/01/what-if-i-am-not-good-at-it.html</guid>
+        <pubDate>Mon, 01 Oct 2018 13:56:00 +0530</pubDate>
+        <link>http://localhost:4000/blog/learn/coding/2018/10/01/what-if-i-am-not-good-at-it.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/learn/coding/2018/10/01/what-if-i-am-not-good-at-it.html</guid>
         
         
         <category>learn</category>
@@ -51,7 +51,7 @@
         <title>What is RossoSkull?</title>
         <description>&lt;h3 id=&quot;origin-story-time-p&quot;&gt;Origin Story Time :P&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/img/rossoskull25ppi.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/images/img/rossoskull25ppi.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I coined the word “RossoSkull” when I was studying in 12&lt;sup&gt;th&lt;/sup&gt; class. I was frequently playing computer games then, so I needed a “cool” name which I could use in those games. And &lt;em&gt;“Rossoskull”&lt;/em&gt; came to my mind. &lt;em&gt;Rossoskull&lt;/em&gt; is comprised of two seperate terms - &lt;em&gt;Rosso&lt;/em&gt; and &lt;em&gt;Skull&lt;/em&gt;. As a whole, &lt;em&gt;RossoSkull&lt;/em&gt; means &lt;em&gt;RedSkull&lt;/em&gt;.&lt;/p&gt;
 
@@ -66,9 +66,9 @@
 &lt;p&gt;Adios Folks!
 &lt;br /&gt;&lt;/p&gt;
 </description>
-        <pubDate>Thu, 13 Sep 2018 09:54:00 -0500</pubDate>
-        <link>http://localhost:4000/learn/coding/2018/09/13/why-rossoskull.html</link>
-        <guid isPermaLink="true">http://localhost:4000/learn/coding/2018/09/13/why-rossoskull.html</guid>
+        <pubDate>Thu, 13 Sep 2018 20:24:00 +0530</pubDate>
+        <link>http://localhost:4000/blog/learn/coding/2018/09/13/why-rossoskull.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/learn/coding/2018/09/13/why-rossoskull.html</guid>
         
         
         <category>learn</category>
@@ -138,9 +138,9 @@
 
 &lt;p&gt;Adios Folks!&lt;/p&gt;
 </description>
-        <pubDate>Tue, 04 Sep 2018 04:07:00 -0500</pubDate>
-        <link>http://localhost:4000/learn/coding/2018/09/04/beginning-your-journey-the-right-way.html</link>
-        <guid isPermaLink="true">http://localhost:4000/learn/coding/2018/09/04/beginning-your-journey-the-right-way.html</guid>
+        <pubDate>Tue, 04 Sep 2018 14:37:00 +0530</pubDate>
+        <link>http://localhost:4000/blog/learn/coding/2018/09/04/beginning-your-journey-the-right-way.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/learn/coding/2018/09/04/beginning-your-journey-the-right-way.html</guid>
         
         
         <category>learn</category>
@@ -171,9 +171,9 @@
 
 &lt;p&gt;Adios Folks.&lt;/p&gt;
 </description>
-        <pubDate>Sun, 02 Sep 2018 14:13:00 -0500</pubDate>
-        <link>http://localhost:4000/learn/coding/2018/09/02/journey-after-iiitv.html</link>
-        <guid isPermaLink="true">http://localhost:4000/learn/coding/2018/09/02/journey-after-iiitv.html</guid>
+        <pubDate>Mon, 03 Sep 2018 00:43:00 +0530</pubDate>
+        <link>http://localhost:4000/blog/learn/coding/2018/09/03/journey-after-iiitv.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/learn/coding/2018/09/03/journey-after-iiitv.html</guid>
         
         
         <category>learn</category>
@@ -204,9 +204,9 @@
 
 &lt;p&gt;Adios folks.&lt;/p&gt;
 </description>
-        <pubDate>Sun, 02 Sep 2018 09:18:00 -0500</pubDate>
-        <link>http://localhost:4000/learn/coding/2018/09/02/journey-before-iiitv.html</link>
-        <guid isPermaLink="true">http://localhost:4000/learn/coding/2018/09/02/journey-before-iiitv.html</guid>
+        <pubDate>Sun, 02 Sep 2018 19:48:00 +0530</pubDate>
+        <link>http://localhost:4000/blog/learn/coding/2018/09/02/journey-before-iiitv.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/learn/coding/2018/09/02/journey-before-iiitv.html</guid>
         
         
         <category>learn</category>
@@ -228,9 +228,9 @@
 &lt;p&gt;This blog is created using &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;, which is a tool that helps you create simple, blog-aware static sites! Sounds cool, doesn’t it? Guess what, it actually is. This site is hosted using &lt;a href=&quot;https://pages.github.com/&quot;&gt;Github Pages&lt;/a&gt;, and that too - for free! GitHub Pages supports Jekyll. I’ll be sharing my experiences and some stuff about coding using this blog.&lt;/p&gt;
 
 </description>
-        <pubDate>Fri, 31 Aug 2018 01:05:00 -0500</pubDate>
-        <link>http://localhost:4000/learn/coding/2018/08/31/blog-init.html</link>
-        <guid isPermaLink="true">http://localhost:4000/learn/coding/2018/08/31/blog-init.html</guid>
+        <pubDate>Fri, 31 Aug 2018 11:35:00 +0530</pubDate>
+        <link>http://localhost:4000/blog/learn/coding/2018/08/31/blog-init.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/learn/coding/2018/08/31/blog-init.html</guid>
         
         
         <category>learn</category>
