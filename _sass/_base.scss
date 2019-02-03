@@ -47,7 +47,13 @@ img {
     vertical-align: middle;
 }
 
-
+.post-image {
+    margin:10px auto;
+    display: block;
+    // border: 1px solid lightgrey;
+    border-radius: 3px;
+    box-shadow: 0px 5px 20px grey;
+}
 
 /**
  * Figures

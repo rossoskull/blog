@@ -6,9 +6,65 @@
 </description>
     <link>http://localhost:4000/blog/</link>
     <atom:link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 02 Feb 2019 23:39:03 +0530</pubDate>
-    <lastBuildDate>Sat, 02 Feb 2019 23:39:03 +0530</lastBuildDate>
+    <pubDate>Sun, 03 Feb 2019 18:51:12 +0530</pubDate>
+    <lastBuildDate>Sun, 03 Feb 2019 18:51:12 +0530</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
+    
+      <item>
+        <title>How to setup a Github Pages static site with custom domain?</title>
+        <description>&lt;p&gt;You may want to host your static website for free, and Github Pages is a great platform to do so. In this tutorial, I am going to show you how you can setup your own Github Pages site with your custom domain name!&lt;/p&gt;
+
+&lt;h5 id=&quot;prerequisites&quot;&gt;Prerequisites&lt;/h5&gt;
+&lt;p&gt;→ You need to have git installed on your computer. Click &lt;a href=&quot;https://git-scm.com/downloads&quot; target=&quot;blank&quot;&gt;here&lt;/a&gt; to download and setup git on your computer.&lt;/p&gt;
+
+&lt;p&gt;After that’s done, create a static site where the landing page is named as &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt;. The reason you need to name your landing page, or the first page a user would see as &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt; is that the web server by-default looks for the &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt; file when no other file is specified.&lt;/p&gt;
+
+&lt;p&gt;I have created a sample static site with a single HTML page called &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt;, one JavaScript file and one CSS file. The directory structure followed is as the following image -&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;post-image&quot; src=&quot;/blog/assets/images/gh-tut/dirstruct.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can find the code for this static site &lt;a href=&quot;https://github.com/rossoskull/ghpages-tutorial&quot; target=&quot;blank&quot;&gt;here&lt;/a&gt;. We will take a look at the &lt;code class=&quot;highlighter-rouge&quot;&gt;CNAME&lt;/code&gt; file later on when we will configure the custom domain for this github pages site.&lt;/p&gt;
+
+&lt;p&gt;Now, let’s create a new repository on &lt;a href=&quot;https://github.com&quot; target=&quot;blank&quot;&gt;Github&lt;/a&gt;. I have created one for the same &lt;a href=&quot;https://github.com/rossoskull/ghpages-tutorial&quot; target=&quot;blank&quot;&gt;here&lt;/a&gt;. Open up a terminal window in your directory, and initialize a git repository by using the following command.&lt;/p&gt;
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git init
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: You do not need to use this command if your directory is already a GIT repository.&lt;/p&gt;
+
+&lt;p&gt;Now add a remote origin to your repository by using the following command-&lt;/p&gt;
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git remote add origin &amp;lt;your-repository-url&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;You can get your repository URL by visiting your repository page, and in the drop down menu of “Clone or Download”, as shown in following image.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;post-image&quot; width=&quot;400px&quot; src=&quot;/blog/assets/images/gh-tut/clone.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Execute the following commands to stage your changes, and commit the changes-&lt;/p&gt;
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git add &lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git commit &lt;span class=&quot;nt&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&amp;lt;Your commit message&amp;gt;&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Now open your Github repository page, open the settings tab, and scroll down to the section which says ‘Github Pages’.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;post-image&quot; src=&quot;/blog/assets/images/gh-tut/ghpagesopt.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;There is a drop down menu, which lets you configure the Github pages settings for the respective repository. There are three options:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;master branch&lt;/li&gt;
+  &lt;li&gt;master branch \docs folder&lt;/li&gt;
+  &lt;li&gt;None&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Initially, the ‘None’ option is selected. It means that the current repository is not being used for Github Pages publishing. The ‘master branch’ option should be selected when you place your &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt; file in the root directory of your GIT repository. And the ‘master branch \docs folder’ option is used when you place your `index.html’ file in a ‘docs’ directory in the root directory of your GIT repository.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 03 Feb 2019 17:10:00 +0530</pubDate>
+        <link>http://localhost:4000/blog/learn/coding/2019/02/03/gh-pages-tutorial.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/learn/coding/2019/02/03/gh-pages-tutorial.html</guid>
+        
+        
+        <category>learn</category>
+        
+        <category>coding</category>
+        
+      </item>
     
       <item>
         <title>&quot;What if I am not good at Coding? 😕&quot;</title>
