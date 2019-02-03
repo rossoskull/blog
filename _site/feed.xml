@@ -6,13 +6,14 @@
 </description>
     <link>http://localhost:4000/blog/</link>
     <atom:link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 03 Feb 2019 18:51:12 +0530</pubDate>
-    <lastBuildDate>Sun, 03 Feb 2019 18:51:12 +0530</lastBuildDate>
+    <pubDate>Sun, 03 Feb 2019 19:34:56 +0530</pubDate>
+    <lastBuildDate>Sun, 03 Feb 2019 19:34:56 +0530</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
     
       <item>
         <title>How to setup a Github Pages static site with custom domain?</title>
-        <description>&lt;p&gt;You may want to host your static website for free, and Github Pages is a great platform to do so. In this tutorial, I am going to show you how you can setup your own Github Pages site with your custom domain name!&lt;/p&gt;
+        <description>&lt;h2 id=&quot;publishing-a-site-on-github-pages&quot;&gt;Publishing a site on Github Pages&lt;/h2&gt;
+&lt;p&gt;You may want to host your static website for free, and Github Pages is a great platform to do so. In this tutorial, I am going to show you how you can setup your own Github Pages site with your custom domain name!&lt;/p&gt;
 
 &lt;h5 id=&quot;prerequisites&quot;&gt;Prerequisites&lt;/h5&gt;
 &lt;p&gt;→ You need to have git installed on your computer. Click &lt;a href=&quot;https://git-scm.com/downloads&quot; target=&quot;blank&quot;&gt;here&lt;/a&gt; to download and setup git on your computer.&lt;/p&gt;
@@ -42,6 +43,10 @@
 &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git commit &lt;span class=&quot;nt&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&amp;lt;Your commit message&amp;gt;&quot;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
+&lt;p&gt;Push your commits to the master branch of your Github repository by executing the following commands-&lt;/p&gt;
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git push origin master
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
 &lt;p&gt;Now open your Github repository page, open the settings tab, and scroll down to the section which says ‘Github Pages’.&lt;/p&gt;
 
 &lt;p&gt;&lt;img class=&quot;post-image&quot; src=&quot;/blog/assets/images/gh-tut/ghpagesopt.png&quot; /&gt;&lt;/p&gt;
@@ -53,7 +58,35 @@
   &lt;li&gt;None&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Initially, the ‘None’ option is selected. It means that the current repository is not being used for Github Pages publishing. The ‘master branch’ option should be selected when you place your &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt; file in the root directory of your GIT repository. And the ‘master branch \docs folder’ option is used when you place your `index.html’ file in a ‘docs’ directory in the root directory of your GIT repository.&lt;/p&gt;
+&lt;p&gt;Initially, the ‘None’ option is selected. It means that the current repository is not being used for Github Pages publishing. The ‘master branch’ option should be selected when you place your &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt; file in the root directory of your GIT repository. And the ‘master branch \docs folder’ option is used when you place your &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt; file in a ‘docs’ directory in the root directory of your GIT repository. For this tutorial, we are placing the &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt; file in the root directory of our repository. So we will select the ‘master branch’ option and save the changes. After we save the changes, our repository will be used for Github Pages publishing, and the site will be live at &lt;code class=&quot;highlighter-rouge&quot;&gt;https://&amp;lt;username&amp;gt;.github.io/&amp;lt;repository_name&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;It may take some time to update the DNS, but your site will be published. But even after some time, if the site is not published, you can try making some changes to your site, and pushing your commits to the Github Repository, which will trigger the republish, and your site will get published.&lt;/p&gt;
+
+&lt;h2 id=&quot;adding-a-custom-domain&quot;&gt;Adding a custom domain&lt;/h2&gt;
+&lt;p&gt;Now we will see how you can add a custom domain to your Github Pages site. If you don’t have a domain already, you can get one for free from &lt;a href=&quot;https://freenom.com&quot; target=&quot;blank&quot;&gt;Freenom&lt;/a&gt;. I will be using a free domain from Freenom in this tutorial. After you select your domain-&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;post-image&quot; src=&quot;/blog/assets/images/gh-tut/freenom.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;click on the checkout button. It will take you to the following page-&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;post-image&quot; src=&quot;/blog/assets/images/gh-tut/freenomdns.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Click on the ‘Use DNS’ option and it will open up a form where you can edit the A records. You have to enter the IP addresses of Github Pages’ DNS servers. You can find the DNS IP’s of Github Pages &lt;a href=&quot;https://help.github.com/articles/setting-up-an-apex-domain/#configuring-a-records-with-your-dns-provider&quot; target=&quot;blank&quot;&gt;here&lt;/a&gt;. Select any two IP addresses and paste them in the form of the checkout page. Click continue after it’s done.&lt;/p&gt;
+
+&lt;p&gt;This is where the &lt;code class=&quot;highlighter-rouge&quot;&gt;CNAME&lt;/code&gt; file comes into action. To add a custom domain to your Github Pages site, create a file named &lt;code class=&quot;highlighter-rouge&quot;&gt;CNAME&lt;/code&gt; in the root directory of your Github repository and insert the domain name in the file. In my case, I had to use &lt;code class=&quot;highlighter-rouge&quot;&gt;ghpagestutorial.tk&lt;/code&gt;. If you would like to use any subdomain, you can add it in the &lt;code class=&quot;highlighter-rouge&quot;&gt;CNAME&lt;/code&gt; file in a new line. Now stage this changes and commit them, and push the changes to the master branch of your Github repository by executing the following commands-&lt;/p&gt;
+
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git add &lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git commit &lt;span class=&quot;nt&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&amp;lt;commit-message&amp;gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git push origin master
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;The changes may take some time to get reflected, but you will be able to visit your static site at your domain now.&lt;/p&gt;
+
+&lt;p&gt;If you face any errors or problems, and don’t know how to solve them, you can leave a comment below, and I will get back to you.&lt;/p&gt;
+
+&lt;p&gt;That’s it for today people, thank you for your time!&lt;/p&gt;
+
+&lt;p&gt;Adios Folks!&lt;/p&gt;
 </description>
         <pubDate>Sun, 03 Feb 2019 17:10:00 +0530</pubDate>
         <link>http://localhost:4000/blog/learn/coding/2019/02/03/gh-pages-tutorial.html</link>
